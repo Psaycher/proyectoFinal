@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import entidades.Cliente;
 import static data.Conexion.getConexion;
-import static data.Conexion.close;
 
 public class ClienteDAO {
 
