@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="../css/iniciar-sesion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img\logo.jpg" alt="logo">
+    <script src="../js/iniciar-sesion.js"></script>
+    <script src="../js/usuarioActivo.js"></script>
+</head>
+<body>
+  <header id="headerContainer">
+
+    <!-- <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./imagenes/Logo Tuki.jpg" alt="#"></a>
+          <span id="user-greeting" style="color: aliceblue; text-decoration: underline; font-weight: 600;"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/acercade.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/consumoAPI.html">Recomendados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/Registro.html">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/iniciar-sesion.html">Iniciar Sesion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html" onclick="cerrarSesion()">Cerrar Sesion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+</header>
+
+    <form action="" class="animate__animated animate__zoomIn">
+        <h2>Iniciar Sesión</h2>
+        <div>
+            <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Contraseña" required>
+        </div>
+        
+        <div class="boton">
+            <button type="button" onclick="verificarCredenciales()">Iniciar Sesión</button>
+        </div>
+        <div class="texto">
+          <a href="../html/Registro.html">¿No tienes una cuenta?</a>
+        </div>
+    </form>
+    <footer>
+
+        <ul>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li>Tienda Tuki ® 2024 </li>
+        </ul>
+
+    </footer>
+    <!--<script src="script.js"></script>-->
+    <script src="../js/renderNavBar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
